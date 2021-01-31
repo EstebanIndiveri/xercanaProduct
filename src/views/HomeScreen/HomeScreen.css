@@ -1,0 +1,4 @@
+.homeScreen_Container{
+    min-height: calc(100vh - 73px);
+    padding: 2rem;
+}

@@ -1,0 +1,54 @@
+.homeScreen_hero{
+    height: 70vh;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #FFF;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px 1px #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeScreen_hero_imageContainer{
+    width: 50%;
+}
+.homeScreen_hero_image{
+    display: block;
+    height: 25rem;
+    width: 100%;
+}
+.homeScreen_hero_titleContainer{
+    width: 50%;
+}
+.homeScreen_hero_title{
+    color:#b4b4b4;
+    font-weight: lighter;
+    font-size: 4rem;
+}
+@media(max-width:920px){
+    .homeScreen_hero_title{
+        font-size: 3rem;
+    }
+    .homeScreen_hero_image{
+        height: 20rem;
+    }
+}
+@media(max-width:768px){
+    .homeScreen_hero_title{
+        font-size: 2rem;
+    }
+    .homeScreen_hero_image{
+        height: 16rem;
+    }
+}
+@media(max-width:550px){
+    .homeScreen_hero{
+        flex-direction: column;
+        height: 100%;
+    }
+    .homeScreen_hero_image{
+        height: 13rem;
+    }
+
+}

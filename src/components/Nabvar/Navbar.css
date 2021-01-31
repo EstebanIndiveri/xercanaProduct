@@ -1,0 +1,110 @@
+.nabvar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .5rem;
+    box-shadow: 0px 0px 10px 0px #f7f7f7;
+    transition: all 300ms ease-in-out;
+}
+.logoImageContainer{
+    display:flex;
+    justify-self: start;
+    align-items: center;
+    width:30%;
+    height: 100%;
+
+}
+.logoImage{
+    height: 30px;
+}
+.listMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.listMenu li,a{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 300ms ease-in-out;
+    color: #c0c0c0;
+}
+
+.listMenu li a:hover{
+    color:#323232;
+    cursor: pointer;
+}
+
+.opened{
+    display: flex;
+    flex-direction: column !important;
+    background-color: #FFF;
+    height: 100%;
+}
+.opened .logoImageContainer{
+    justify-content: center;
+}
+.opened .listMenu{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    pointer-events: all;
+    margin-top: 1rem;
+}
+.opened .listMenu li{
+    margin-bottom: .5rem;
+}
+.opened .menuicon{
+    align-self: flex-end;
+}
+
+.activeMenu{
+    color:#323232;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.menuicon{
+    height: 30px;
+    transition: transform 300ms ease-in-out;
+    cursor: pointer;
+}
+.menuicon:hover{
+    transform: translateX(-3px);
+}
+
+.profileImage{
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 0px #cccccc;
+}
+
+@media(min-width:480px){
+    .menuicon{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+  
+    .listMenu{
+        pointer-events: none;
+        opacity: 0;
+    }
+    .profileImage{
+        display: none;
+    }
+}
+.logout_btn{
+    cursor: pointer;
+}

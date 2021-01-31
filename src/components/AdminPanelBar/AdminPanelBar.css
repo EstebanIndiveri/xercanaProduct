@@ -1,0 +1,72 @@
+.adminPanel_Wizard{
+    width: 30%;
+    min-height: 88.3vh;
+    display: flex;
+    flex-direction: column;
+    color:#323232;
+    transition: all 300ms ease-in-out;
+}
+.adminPanel_NavbarContainer{
+    padding-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: initial;
+    pointer-events: all;
+    box-shadow: 1px 10px 4px 0px #e1e1e1;
+    min-height: 100%;
+}
+.adminPanel_title{
+    margin-top: 3rem;
+    font-weight: 400;  
+    text-align: center;
+}
+.adminPanel_ListContainer{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+}
+.adminPanel_ListItem{
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight:100;
+    transition: all 300ms ease-in-out;
+}
+.adminPanel_ListItem:hover{
+    background-color: #555;
+    color: #FFF;
+    font-size: 1.22rem;
+}
+.adminPanel_menuScroll{
+    height: 40px;
+    filter: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.scrollview{
+    width: 0%;
+}
+.scrollview .adminPanel_NavbarContainer{
+    pointer-events: none;
+    color:transparent
+}
+.scrollview .adminPanel_menuScroll{
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    pointer-events: all;
+}

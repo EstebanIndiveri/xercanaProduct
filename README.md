@@ -1,3 +1,61 @@
+
+# LA MORE webapp (Underline)
+## ReactJS webapp, customHooks, useContext, API AFIP and more...
+
+`<Github>` : <https://github.com/EstebanIndiveri>
+
+### Use axios and json serve to test
+
+`$ npm install -g json-server`
+
+`$ npm install axios`
+
+### Javascript
+---
+<pre>Start JSON Server
+json-server --watch db.json
+Now if you go to http://localhost:8080/products/, you'll get</pre>
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `getProducts()`      | Display all products.       |
+| `getProduct()`   | Display product by ID     |
+| `uploadProduct()`   | Update product by ID     |
+| `getFilterProducts()`   | Search product by Name     |
+| `postProduct()`   | Add new product ID     |
+| `deleteProduct()`   | Delete product by ID     |
+| `getProvinces()`   | Display Argentina Provinces      |
+
+---
+
+
+# Images Preview
+
+<img src="https://i.ibb.co/LrtPjQZ/La-more-Home.png" alt="La-more-Home" >
+> Home Screen.
+
+
+<img src="https://i.ibb.co/jTpLpd7/products.png" alt="products" >
+>Products Section
+
+<img src="https://i.ibb.co/5k14WFt/adminlist.png" alt="adminlist" >
+>Admin Section
+
+<img src="https://i.ibb.co/Y0rBrZM/login.png" alt="login">
+>Login Section
+
+<img src="https://i.ibb.co/rGsPh8k/Tab-1612072725570-1.gif" alt="Tab-1612072725570-1" >
+>Demo Preview
+
+---
+
+<button style="border:none;background:#555;color:#FFF;border-radius:10px;padding:.5rem;text-align:center"><a style="color:#FFF;font-weight:bold;text-decoration:none" href="https://www.estebanindiveri.com/" target="_blank">Visit my website</a></button>
+
+<button style="border:none;background:#0e76a8;color:#FFF;border-radius:10px;padding:.5rem;text-align:center"><a style="color:#FFF;font-weight:bold;text-decoration:none" href="https://www.linkedin.com/in/esteban-indiveri/" target="_blank">Linkedin</a></button>
+
+<button style="border:none;background:#1dbf73;color:#FFF;border-radius:10px;padding:.5rem;text-align:center"><a style="color:#323232;font-weight:bold;text-decoration:none" href="https://www.fiverr.com/estebanindiveri/create-fast-and-responsive-web-page-with-react-or-angular" target="_blank">Fiverr</a></button>
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

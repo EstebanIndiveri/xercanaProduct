@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "photo": "C:\\fakepath\\laura-chouette-R49t24o-6aw-unsplash (1).jpg",
+      "created_date": 1611964589416,
+      "last_edit_date": 1612102651800,
+      "name": "First",
+      "state": "ready",
+      "price": 798,
+      "description": "description",
+      "owner": {
+        "full_name": "esteban indiveri",
+        "cuit": 1233,
+        "address": {
+          "province": "Córdoba",
+          "street": "9 de julio",
+          "number": 299
+        },
+        "id": 0.5827738614
+      }
+    },
+    {
+      "id": 2,
+      "photo": "C:\\fakepath\\images.jfif",
+      "created_date": 1611954674419,
+      "last_edit_date": 1612102668858,
+      "name": "Test efect",
+      "state": "ready",
+      "price": 540,
+      "description": "Rich text",
+      "owner": {
+        "id": 0.5569358737,
+        "full_name": "name",
+        "cuit": 123,
+        "address": {
+          "province": "Córdoba",
+          "street": "9 de julio",
+          "number": 120,
+          "name": "Test efect",
+          "photo": "C:\\fakepath\\images.jfif"
+        }
+      }
+    },
+    {
+      "name": "NameTest30",
+      "description": "descripcion nose",
+      "price": 100,
+      "photo": "C:\\fakepath\\laura-chouette-R49t24o-6aw-unsplash.jpg",
+      "owner": {
+        "full_name": "esteban test",
+        "cuit": 1060708089,
+        "address": {
+          "street": "sucre 251",
+          "province": "La Pampa",
+          "number": 850
+        },
+        "id": 0.0299195182
+      },
+      "created_date": 1612036631135,
+      "state": "send",
+      "id": 4,
+      "last_edit_date": 1612102681362
+    },
+    {
+      "name": "Batman",
+      "description": "test",
+      "price": 700,
+      "photo": "C:\\fakepath\\images.jfif",
+      "owner": {
+        "full_name": "esteamoi",
+        "cuit": 20202020,
+        "address": {
+          "street": "sucre 251",
+          "province": "Corrientes",
+          "number": 102315
+        },
+        "id": 0.765375053
+      },
+      "created_date": 1612051272354,
+      "state": "pending",
+      "id": 5,
+      "last_edit_date": 1612102690472
+    }
+  ]
+}

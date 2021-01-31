@@ -1,0 +1,108 @@
+.productEdit_Container{
+    display: flex;
+    min-height: calc(100vh - 73px);
+    background-color: #FFF;
+    flex-direction: column;
+}
+.productEdit_title{
+    text-align: initial;
+    width: 60%;
+    color:rgb(47, 74, 124);
+}
+.productEditFormContainer{
+    padding: 1rem;
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.productEditForm{
+    padding: 3rem 0rem;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px #f0f0f0;
+    border-radius: 10px;
+    min-height: 70vh;
+}
+.productEditFormInputContainer{
+    padding-top: 2rem;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.productEditForm_label{
+    font-weight: bold;
+}
+.productEditFormInput{
+    border:none;
+    width: 70%;
+    padding: 1rem;
+    border-bottom: 2px solid rgb(199, 199, 199);
+    box-shadow:none;
+    transition: all 300ms ease-out;
+}
+.productEditFormInput:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(47, 74, 124);
+}
+.productEditFormInput_image{
+    border:none;
+    width: 70%;
+    padding: 1rem;
+    box-shadow:none;
+    transition: all 300ms ease-out;
+}
+.productEdit_TitleContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.productEdit_btnBackContainer{
+    align-self: initial;
+    justify-self: self-start;
+    width: 30%;
+}
+.productEdit_btnBack{
+    background-color: rgb(47, 74, 124);
+    color:#FFF;
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:all 300ms ease-in-out
+}
+.productEdit_btnBack:hover{
+    background-color: rgb(63, 99, 167);
+}
+.productEdit_btnBack:focus{
+    outline:none;
+}
+.mt-4{
+    margin-top: 2rem;
+}
+.w-5{
+    width: 50%;
+}
+input:disabled{
+    background-color: rgb(163, 163, 163);
+    cursor: default;
+
+}
+input:disabled:hover{
+    pointer-events: none;
+    background-color: rgb(163, 163, 163);
+}
+
+@media(max-width:576px){
+ .productEditFormInputContainer{
+     flex-direction: column;
+ }   
+ .productEditFormContainer{
+     width: 100%;
+ }
+
+}

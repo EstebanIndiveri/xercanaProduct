@@ -1,0 +1,117 @@
+.principalBanner_Container{
+    height: 90vh !important;
+    background-color: #FFF;
+    display: flex;
+    margin-top: 5rem !important;
+}
+.principalBanner_ContainerItems{
+    max-height: 50vh;
+    background-color: rgb(255 243 230 / 22%);
+    color:#FFF;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+.principalBanner_ImageContainer{
+    width: 50%;
+    height: 100%;
+}
+.principalBanner_Image{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.principalBanner_TextContainer{
+    width: 50%;
+    height: 100%;
+    color: #323232;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.principalBanner_TextTitle{
+    text-align: center;
+}
+.principalBanner_TextParagraph{
+    text-align: center;
+    color:#555;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.secondBanner_Container{
+    min-height: 60vh;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+.secondBanner_firstPanel{
+    width: 48%;
+    background-color:rgb(250 248 255) ;
+    padding: .3rem;
+    align-self: flex-start;
+    min-height: 40vh;
+}
+.secondBanner_firstPanel h2, .secondBanner_firstPanel p{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #323232;
+}
+
+.secondBanner_secondPanel{
+    width: 48%;
+    background-color: #9e9e9e;
+    margin-top: 15rem;
+    padding: .3rem;
+    color:#FFF;
+    min-height: 40vh;
+}
+
+.secondBanner_secondPanel h2, .secondBanner_secondPanel p{
+    text-align: center;
+    font-family: 'Montserrat';
+    color:#FFF;
+}
+
+@media(max-width:640px){
+    .principalBanner_ContainerItems{
+        width: 100%;
+    }
+}
+
+@media(max-width:500px){
+    .principalBanner_ContainerItems{
+        flex-direction: column;        
+    }
+    .principalBanner_TextTitle{
+        font-size: 1.4rem;
+    }
+    .principalBanner_ImageContainer{
+        width: 100%;
+    }
+    .principalBanner_TextContainer{
+        width: 100%;
+        background-color: rgb(255 243 230 / 22%);
+    }
+    .secondBanner_Container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondBanner_firstPanel{
+        align-items: center;
+        align-self: center;
+        width: 90%;
+    }
+    .secondBanner_secondPanel{
+        width: 90%;
+        margin-top: 3rem;
+    }
+ 
+}

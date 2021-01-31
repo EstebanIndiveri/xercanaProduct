@@ -1,0 +1,53 @@
+.HomeScreen_NavPayment{
+    background-color: #FFF;
+    width: 100%;
+    margin:0 auto;
+    margin-bottom: 4rem;
+    display: flex;
+    box-shadow: 0px 0px 8px 0px #ececec;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.HomeScreen_NavPaymentContainer{
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.HomeScreen_NavList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.HomeScreen_NavList_Image{
+    margin-right: .3rem;
+    max-height: 1.5rem;
+}
+.HomeScreen_NavList_item{
+    color:#323232;
+}
+@media(max-width:768px){
+    /* .HomeScreen_NavList{
+        flex-direction: column;
+    }
+    .HomeScreen_NavList_item{
+        margin-bottom: 1rem;
+    } */
+    .HomeScreen_NavPaymentContainer{
+        width: 100%;
+        padding: 0;
+    }
+}
+@media(max-width:630px){
+   .HomeScreen_NavList{
+        flex-direction: column;
+    }
+    .HomeScreen_NavList_item{
+        margin-bottom: 2rem;
+        /* border-bottom: 1px solid #323232; */
+        width: 100%;
+    }
+   
+}
