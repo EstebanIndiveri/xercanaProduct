@@ -13,7 +13,7 @@
 ### Javascript
 ---
 <pre>Start JSON Server
-json-server --watch db.json
+json-server -p 8080 --watch db.json
 Now if you go to http://localhost:8080/products/, you'll get</pre>
 
 | Function name | Description                    |
