@@ -112,7 +112,7 @@ const handleInputChanges = level => e => {
                         <div className="productEdit_btnBackContainer">
                             <button onClick={()=>history.goBack()} className="productEdit_btnBack">Back</button>
                         </div>
-                        <h1 className="productEdit_title">{id==='new'?'Create your Proyecy':'Edit your Product'}</h1>
+                        <h1 className="productEdit_title">{id==='new'?'Create your Product':'Edit your Product'}</h1>
                 </div>
                 <div className="productEditFormContainer">
                     <form onSubmit={(e)=>handleSubmit(e)} className="productEditForm">
